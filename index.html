@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Themed Link Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI-Themed Link Store</h1>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search links...">
+    </div>
+
+    <div class="add-link-form">
+        <input type="text" id="linkTitle" placeholder="Enter link title">
+        <input type="text" id="linkURL" placeholder="Enter link URL">
+        <input type="text" id="linkDescription" placeholder="Enter link description">
+        <button id="addLinkButton">Add Link</button>
+    </div>
+
+    <div class="link-grid" id="linkGrid">
+        <div class="link-card">
+            <span class="remove-link" onclick="removeLink(event)">&#10005;</span>
+            <a href="https://www.openai.com" target="_blank">OpenAI</a>
+            <p>Explore cutting-edge AI technologies.</p>
+        </div>
+        <div class="link-card">
+            <span class="remove-link" onclick="removeLink(event)">&#10005;</span>
+            <a href="https://www.tensorflow.org" target="_blank">TensorFlow</a>
+            <p>Open-source platform for machine learning.</p>
+        </div>
+        <div class="link-card">
+            <span class="remove-link" onclick="removeLink(event)">&#10005;</span>
+            <a href="https://www.github.com" target="_blank">GitHub</a>
+            <p>Discover and collaborate on coding projects.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
