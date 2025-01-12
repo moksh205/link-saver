@@ -1,4 +1,4 @@
-# Assignment Helper Web Application
+# Link Saver Web Application
 
 This is a web-based application designed to help students manage their assignments by allowing them to upload, download, and organize their academic tasks. The platform integrates Google Drive for file storage and sharing, making it easier for students to access and share their assignments.
 
