@@ -5,13 +5,11 @@ This is a web-based application designed to help students manage their assignmen
 ## Features
 
 - **Search functionality:** Quickly find assignments by searching through their titles, descriptions, or links.
-- **Add new assignments:** Upload and add new assignments with title, description, and URL.
 - **Link storage:** All assignments are stored in `localStorage` for persistence across page reloads.
 - **Remove assignments:** Each assignment card has a cross (X) button that allows users to remove assignments from the list.
 - **Responsive design:** The application is mobile-friendly, adapting to both small and large screen sizes.
   
 ## Technologies Used
-
 - **HTML**
 - **CSS**
 - **JavaScript**
@@ -27,4 +25,4 @@ This is a web-based application designed to help students manage their assignmen
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/assignment-helper.git
+   git clone https://github.com/moksh205/assignment-helper.git
